@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+.logo {
+  width: 4%;
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bodyindex {
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-clip {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.contenedorSoon {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 45%;
+  height: 60%;
+  margin: 4% auto auto auto;
+  border-radius: 8%;
+}
+
+div h1 {
+  font-size: 80px;
+  /*font-family: 'Protest Guerrilla', sans-serif;*/
+  font-family: "Cinzel", serif;
+  /*color: #108740;*/
+  color: aliceblue;
+  text-align: center;
+  cursor: default;
+  margin-top: 20%;
+  text-shadow: rgba(16, 135, 64, 0.5) 10px 10px 10px;
+}
+div h6 {
+  font-size: 100%;
+  font-family: "Cinzel", serif;
+  color: #108740;
+  text-align: center;
+  cursor: default;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 3%;
+  margin-left: 1%;
+  color: gray;
+  font-family: sans-serif;
+  cursor: default;
+}
+
+.redes {
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  gap: 40%;
+  right: 2%;
+}
+
+.red {
+  color: #108740;
+}/*# sourceMappingURL=main.css.map */
