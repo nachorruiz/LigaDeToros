@@ -5,7 +5,7 @@
 }
 // BACKGROUNDS
 .bodyindex{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .background-clip-mobile{
@@ -35,6 +35,14 @@
     border-radius: 8%;
 }
 
+#secondPage{
+    background-color: #080808;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+}
+
 // TEXTOS
 
 div{
@@ -56,5 +64,14 @@ div{
         color: #108740;
         text-align: center;
         cursor: default;
+    }
+}
+
+#arrow{
+    position: absolute;
+    bottom: 15%;
+    font-size: 35px;
+    .fa-solid{
+        color: white;
     }
 }
