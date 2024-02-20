@@ -18,10 +18,6 @@
 }
 
 .background-clip-mobile {
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
   display: none;
 }
 
@@ -93,6 +89,10 @@ div h6 {
     display: none;
   }
   .background-clip-mobile {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
     display: unset;
   }
   .logo {
